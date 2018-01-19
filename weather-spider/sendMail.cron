@@ -1,0 +1,1 @@
+0 7 * * * python /home/kvmial/python-crawler/weather-spider/wSpider.py >> sendMail.log && python /home/kvmial/python-crawler/weather-spider/wMail.py >> sendMail.log
