@@ -15,9 +15,9 @@ def _format_addr(s):
         addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
 from_addr = "weatherfortoday@163.com"
-password = "Kvmial99"
+password = "123456"
 # 多个地址用逗号分隔，还是一个字符串传入
-to_addr = "1279917365@qq.com"
+to_addr = "example@163.com"
 smtp_server = "smtp.163.com"
 
 with open("todayWeather.txt","r") as f:
